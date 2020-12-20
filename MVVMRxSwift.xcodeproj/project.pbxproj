@@ -17,6 +17,9 @@
 		D1825375258E94DE009F339C /* MVVMRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1825374258E94DE009F339C /* MVVMRxSwiftTests.swift */; };
 		D1825380258E94DE009F339C /* MVVMRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D182537F258E94DE009F339C /* MVVMRxSwiftUITests.swift */; };
 		D182539D258E97BB009F339C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D182539C258E97BB009F339C /* AppCoordinator.swift */; };
+		D18253A2258ECA9F009F339C /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = D18253A1258ECA9F009F339C /* restaurants.json */; };
+		D18253A7258ECBD5009F339C /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18253A6258ECBD5009F339C /* Restaurant.swift */; };
+		D18253AC258ECCFD009F339C /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18253AB258ECCFD009F339C /* RestaurantService.swift */; };
 		D90A4D6217F4E43C661E9A1A /* Pods_MVVMRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCADED9C764C39120B43477 /* Pods_MVVMRxSwiftTests.framework */; };
 		E59BFCB395F6E328D571A360 /* Pods_MVVMRxSwift_MVVMRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311E2CA0A4FA3548D4BEB55E /* Pods_MVVMRxSwift_MVVMRxSwiftUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +64,9 @@
 		D182537F258E94DE009F339C /* MVVMRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRxSwiftUITests.swift; sourceTree = "<group>"; };
 		D1825381258E94DE009F339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D182539C258E97BB009F339C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D18253A1258ECA9F009F339C /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		D18253A6258ECBD5009F339C /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		D18253AB258ECCFD009F339C /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
 		DCCADED9C764C39120B43477 /* Pods_MVVMRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0BB10FEC29178E62F24572 /* Pods_MVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,6 +155,9 @@
 				D1825368258E94DE009F339C /* LaunchScreen.storyboard */,
 				D182536B258E94DE009F339C /* Info.plist */,
 				D182539C258E97BB009F339C /* AppCoordinator.swift */,
+				D18253A1258ECA9F009F339C /* restaurants.json */,
+				D18253A6258ECBD5009F339C /* Restaurant.swift */,
+				D18253AB258ECCFD009F339C /* RestaurantService.swift */,
 			);
 			path = MVVMRxSwift;
 			sourceTree = "<group>";
@@ -279,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18253A2258ECA9F009F339C /* restaurants.json in Resources */,
 				D182536A258E94DE009F339C /* LaunchScreen.storyboard in Resources */,
 				D1825367258E94DE009F339C /* Assets.xcassets in Resources */,
 				D1825365258E94DD009F339C /* Main.storyboard in Resources */,
@@ -409,9 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18253A7258ECBD5009F339C /* Restaurant.swift in Sources */,
 				D182539D258E97BB009F339C /* AppCoordinator.swift in Sources */,
 				D1825362258E94DD009F339C /* ViewController.swift in Sources */,
 				D182535E258E94DD009F339C /* AppDelegate.swift in Sources */,
+				D18253AC258ECCFD009F339C /* RestaurantService.swift in Sources */,
 				D1825360258E94DD009F339C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
